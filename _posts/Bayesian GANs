@@ -49,7 +49,7 @@ The job of a discriminator is to perform a binary classification task - whether 
 
 ![formula](https://render.githubusercontent.com/render/math?math=$L(\theta)=\prod_{i=1}^{N}p(x_{i})^{y_{i}}(1-p(x_{i}))^{1-y_{i}}$)
 
-In our specific GAN example, ![formula](https://render.githubusercontent.com/render/math?math=$p(x_{i})$ = $D(x_{i},\theta_{d})$, $y_{i}=1$)
+In our specific GAN example, ![formula](https://render.githubusercontent.com/render/math?math=$p(x_{i})$ = $D(x_{i}\;\theta_{d})$, $y_{i}=1$)
                                         Also, ![formula](https://render.githubusercontent.com/render/math?math=$p(x_{i})$ =$D(G(z_{i},\theta_{g}),\theta_{d}))$, $y_{i}=0$)
 
 Combining both the cases, the likelihood function can be written as: ![formula](https://render.githubusercontent.com/render/math?math=$\prod_{i=1}^{n_{d}}D(x_{i},\theta_{d})\times\prod_{i=1}^{n_{g}}(1-D(G(z_{i},\theta_{g}),\theta_{d})))$)
