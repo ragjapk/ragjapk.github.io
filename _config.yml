@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Ragja Palakkadavath"
 title_separator          : "-"
 name                     : &name "Ragja Palakkadavath"
 description              : &description "Machine Learning Engineer"
