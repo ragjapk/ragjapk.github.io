@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "Bayesian Generative Adversarial Nets with Dropout Inference"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'Generative adversarial networks are one of the most popular approaches to generate new data from complex high-dimensional data distributions. They have revolutionized the area of generative models by creating quality samples that highly resemble the true data distribution. However, these samples often cover only few high density areas of the true data distribution. As some of the modes are missing in the generated data, this issue is referred to as mode collapse. Bayesian GANs (BGANs) can address this to a great extend by considering Bayesian learning principles. Instead of learning point estimates of parameters in the network, BGANs learn a probability distribution over these parameters and make use of the posterior distribution over parameters to make prediction. As these models are huge neural networks, analytical inference is not feasible due to the intractable likelihood and evidence terms. Hence, BGANs perform an approximate inference based on stochastic gradient Hamiltonian Monte Carlo (SGHMC) sampling which is computationally expensive and displays convergence problems. We propose a simple and effective Bayesian GAN model based on Monte Carlo dropout based inference (BDGAN). We establish theoretical connection between variational inference in Bayesian GANs and Monte Carlo dropout in GANs. The effectiveness of the proposed model in overcoming mode collapse is demonstrated on various synthetic and real-world data sets. Additionally, we analyse the training time and memory usage to show case the proposed method’s advantages over Bayesian GAN.'
+date: 2021-01-02
+venue: 'CoDS COMAD 2021'
+paperurl: 'https://dl.acm.org/doi/10.1145/3430984.3431016'
+citation: 'Ragja Palakkadavath and P.K. Srijith. (2021). &quot;Bayesian Generative Adversarial Nets with Dropout Inference.&quot; <i>In 8th ACM IKDD CODS and 26th COMAD (CODS COMAD 2021). Association for Computing Machinery, New York, NY, USA, 92–100</i>. DOI:https://doi.org/10.1145/3430984.3431016.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+Generative adversarial networks are one of the most popular approaches to generate new data from complex high-dimensional data distributions. They have revolutionized the area of generative models by creating quality samples that highly resemble the true data distribution. However, these samples often cover only few high density areas of the true data distribution. As some of the modes are missing in the generated data, this issue is referred to as mode collapse. Bayesian GANs (BGANs) can address this to a great extend by considering Bayesian learning principles. Instead of learning point estimates of parameters in the network, BGANs learn a probability distribution over these parameters and make use of the posterior distribution over parameters to make prediction. As these models are huge neural networks, analytical inference is not feasible due to the intractable likelihood and evidence terms. Hence, BGANs perform an approximate inference based on stochastic gradient Hamiltonian Monte Carlo (SGHMC) sampling which is computationally expensive and displays convergence problems. We propose a simple and effective Bayesian GAN model based on Monte Carlo dropout based inference (BDGAN). We establish theoretical connection between variational inference in Bayesian GANs and Monte Carlo dropout in GANs. The effectiveness of the proposed model in overcoming mode collapse is demonstrated on various synthetic and real-world data sets. Additionally, we analyse the training time and memory usage to show case the proposed method’s advantages over Bayesian GAN.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](https://dl.acm.org/doi/10.1145/3430984.3431016)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: Ragja Palakkadavath and P.K. Srijith. (2021). "Bayesian Generative Adversarial Nets with Dropout Inference." <i>In 8th ACM IKDD CODS and 26th COMAD (CODS COMAD 2021). Association for Computing Machinery, New York, NY, USA, 92–100</i>. DOI:https://doi.org/10.1145/3430984.3431016
